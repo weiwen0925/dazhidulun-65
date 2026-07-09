@@ -1163,5 +1163,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C65P1:END-->
+<!--WY-C65P2:BEGIN-->
+<style id="wy-c65p2-css">
+.c65p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c65p2-fabbox.show{display:block;}
+.c65p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c65p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c65p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c65p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c65p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c65p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c65p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c65p2-modal.open{display:flex;}
+.c65p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c65p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c65p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c65p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c65p2-close:hover{background:#e3d5b8;}
+.c65p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c65p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c65p2-tbl th,.c65p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c65p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c65p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c65p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c65p2-tbl b{color:#8b2500;}
+.c65p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c65p2-note b{color:#8b2500;}
+@media(max-width:900px){.c65p2-fabbox{right:14px;}.c65p2-tbl{font-size:11.5px;}.c65p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c65p2-fabbox" id="c65p2Box"><button class="c65p2-btn" id="c65p2Btn" type="button" aria-label="開啟全景總表"><span class="c65p2-ic">▦</span><span class="c65p2-ls"><span class="c65p2-l1">本品 · 第二法輪轉 · 無法有法空 · 摩訶波羅蜜</span><span class="c65p2-l2">非一非二 · 四句分別 · 十種清淨說 · 無畢定福田</span></span></button></div><div class="c65p2-modal" id="c65p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c65p2-card"><button class="c65p2-close" id="c65p2Close" type="button" aria-label="關閉">×</button><h3>卷六十五·第二品 釋無作實相品 · 全景總表</h3><p class="sub">卷六十五・第二品｜諸天散華讚第二法輪轉・佛遮非一非二無轉無還・無法有法空破四句分別・摩訶波羅蜜空亦復空・三解脫門捨我我所・十種清淨說法降維轉譯・無說無受無證無畢定福田・二諦圓融</p><table class="c65p2-tbl"><caption>一、諸天讚歎與無轉無還之理體跨越（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>諸天散華讚「第二法輪轉」</td><td>諸天子虛空散四色蓮華，讚「我等於閻浮提見第二法輪轉」，無量百千天子得無生法忍；佛卻迴遮：「是法輪非第一轉、非第二轉，不為轉故出、不為還故出，無法有法空故」</td></tr><tr><td>事相層辯護 · 「第二」之名何以成立</td><td>「第二」非計數次序，而是得道規模與震撼力之判準——初轉八萬諸天得忍、一人得初道，今會無量諸天得無生法忍，今轉似如初轉，故世俗諦中如法成立</td></tr><tr><td>顯密二相破以大喻小之疑</td><td>諸佛事有密（菩薩所見·無數阿僧祇人得道）與現（聲聞所見·八萬一人）二相；譬如大雨大樹多受小樹少受，佛事大小不決於法之增減而決於器之緣起，故「以大喻小」無咎</td></tr><tr><td>有法空與無法空雙翼推演</td><td>佛答「無法有法空故」拆為雙翼——無轉屬有法空（無明畢竟空，不能實生諸行，故無物可轉）、無還屬無法空（無明虛妄無實定，故無物可斷可還），二翼合龍推出「一切法從本已來畢竟不生」</td></tr><tr><td>幻夢金輪的二諦整合</td><td>諸天如夢中見金輪轉動而歡喜讚歎（世俗諦積福），佛陀覺醒開示夢境了不可得（勝義諦積智）；天見轉相、佛見空相，因緣故轉、自性不轉，二諦是同一金輪的兩種觀看</td></tr></tbody></table><table class="c65p2-tbl"><caption>二、破執之鋒與體用之辯（核心辯證）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>四句分別矩陣與非有非無之陷阱</td><td>諸法四種邪憶念——說有（墮常）、說無（墮斷）、亦有亦無（機械疊加）、非有非無（最具迷惑性，新發意菩薩易將其實體化為終極中道）；「無法有法空」正是破非有非無的破陣工具</td></tr><tr><td>空亦復空 · 連破執工具也銷毀</td><td>破非有非無有二法——用上三句破、用涅槃實相破；「有法無法亦自相空」，般若波羅蜜中無般若波羅蜜相，連破除執著的空性本身亦了不可得，猶如火燒盡木頭後火亦當熄</td></tr><tr><td>摩訶波羅蜜 · 空故能大之逆轉</td><td>須菩提歎「大波羅蜜」，反詰若諸法般若佛果皆空何以稱大？答：自性空中亦無自性空，故名摩訶——不守空相方無礙，唯畢竟空無所滯礙，菩薩方能行諸善法得無上道，空正是大的唯一條件</td></tr><tr><td>六重畏墮 · 懸於二邊之間的中道</td><td>畏墮常故不轉、畏墮滅故不還；畏墮有故不轉、畏墮無故不還；畏著世間故不轉、畏著涅槃故不還——三組六重畏墮刻畫不轉不還於斷常有無世出世間三軸精準懸停的中道實踐</td></tr><tr><td>三解脫門 · 無作實相的實修落點</td><td>空解脫門觀自性空（本體不見有法可轉）、無相解脫門觀外境無定相（現象不取轉還之相）、無作解脫門觀無真實作者（造作不生我在修行之念）；「空相不能轉、無相相不能轉、無作相不能轉」正是品名「無作實相」之著落處</td></tr></tbody></table><table class="c65p2-tbl"><caption>三、十種清淨說法與無畢定福田之究竟總攝（收束總攝）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>從實相無說到降維轉譯</td><td>第一義中實無所說，然為利益眾生，菩薩須將深奧般若降維轉譯為世俗語言；能不取相不著心而說，方是十種方便展開的前提</td></tr><tr><td>十種清淨說法逐一詮義</td><td>說／教（案文口傳、令受持）、照（如燈照物令知）、開（開邪疑扉如開寶藏）、示（指是道非道）、分別（辨善惡罪福世涅槃）、顯現（種種方便趣令得解）、說法（應機說佛意趣）、解釋（披析譬喻令易解）、淺易（分散深水令渡者皆易）——十法為首說甚深義</td></tr><tr><td>無說無受無證的因果鏈</td><td>第一義中畢竟空故無說，無說故無受，無受故無證，無證故無滅煩惱，無滅煩惱則無福田——環環相扣直探空性之底</td></tr><tr><td>無畢定福田的終極悖論</td><td>世俗行中信受讀誦得沙門果滅煩惱得有餘涅槃，是畢定福田；勝義諦中諸法同無餘涅槃性，故說無畢定福田——「畢定」一詞順流為立、逆流為破，同詞兩義不相礙</td></tr><tr><td>二諦圓融 · 說有不著有說空不落空</td><td>雖轉法輪亦無轉還，度盡一切眾生實無眾生得滅度者；在無量福德中通達無福德性，此即摩訶般若波羅蜜——事理破用四維總攝全品最終歸於此二諦不相壞之圓融</td></tr></tbody></table><p class="c65p2-note">《釋無作實相品》以一場戲劇性的讚歎與迴遮開場：諸天以現象界最隆重的儀式宣告「見第二法輪轉」，佛陀卻當下將話頭從計數拉向實相——法輪非一非二，般若無起無作故無轉無還。全品最見龍樹解經功力處，在於不否定諸天讚歎的世俗真實，反而以顯密二相、大雨根器之喻，證成「以大喻小無咎」，讓二諦各安其位。破執之鋒直指思維最後的堡壘——「非有非無」，這是三句易破而第四句最易讓新發意菩薩產生實體化錯覺之處，「無法有法空」正為擊碎此最後堡壘而設，且<b>連破執的工具本身，也須在空亦復空中一併銷毀</b>，恰如火燒盡薪後不應自留為患。須菩提「大波羅蜜」之讚看似弔詭，實則翻轉問難的前提——空非大之障礙，而是大之唯一條件；六重畏墮精準刻畫般若懸於斷常有無世出世間之間、不落兩邊的中道姿態，三解脫門則是「無作實相」品名在實修上的具體落實。終以十種清淨說法完成從實相無說到大用降維的教學鏈，而「無畢定福田」的終極悖論，恰是二諦圓融的最佳寫照——雖轉法輪亦無轉還，在無量福德中通達無福德性，正是摩訶般若波羅蜜之全體大用。</p></div></div>
+<script id="wy-c65p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c65p2Btn"),BOX=document.getElementById("c65p2Box"),MODAL=document.getElementById("c65p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c65p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C65P2:END-->
 </body>
 </html>
