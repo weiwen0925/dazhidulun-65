@@ -1322,5 +1322,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C65P4:END-->
+<!--WY-C65P5:BEGIN-->
+<style id="wy-c65p5-css">
+.c65p5-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c65p5-fabbox.show{display:block;}
+.c65p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c65p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c65p5-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c65p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c65p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c65p5-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c65p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c65p5-modal.open{display:flex;}
+.c65p5-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c65p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c65p5-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c65p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c65p5-close:hover{background:#e3d5b8;}
+.c65p5-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c65p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c65p5-tbl th,.c65p5-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c65p5-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c65p5-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c65p5-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c65p5-tbl b{color:#8b2500;}
+.c65p5-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c65p5-note b{color:#8b2500;}
+@media(max-width:900px){.c65p5-fabbox{right:14px;}.c65p5-tbl{font-size:11.5px;}.c65p5-card{padding:26px 14px 16px;}}
+</style>
+<div class="c65p5-fabbox" id="c65p5Box"><button class="c65p5-btn" id="c65p5Btn" type="button" aria-label="開啟全景總表"><span class="c65p5-ic">▦</span><span class="c65p5-ls"><span class="c65p5-l1">本品 · 四十七法讚般若 · 不可得總印</span><span class="c65p5-l2">知識論本體論目的論三維辯證巨構</span></span></button></div><div class="c65p5-modal" id="c65p5Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c65p5-card"><button class="c65p5-close" id="c65p5Close" type="button" aria-label="關閉">×</button><h3>卷六十五·第五品 釋校量法施品之餘 · 全景總表</h3><p class="sub">卷六十五・第五品｜須菩提四十七則讚問佛以一句不可得印可・五觀十八空七科助道三解脫門背捨次第定六波羅蜜佛地七德七章收攝・般若無常與法性常住之辯・有用般若與常住般若・佛波羅蜜終歸一切種智</p><table class="c65p5-tbl"><caption>一、47則辯證巨構全景與三大邏輯悖論（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>47則七章結構總覽</td><td>五觀（44-48）、十八空（49-65）、七科助道（66-72）、三解脫門（73-75）、背捨次第定（76-77）、六波羅蜜（78-83）、佛地七德（84-90）——七章依本體論修行道法論果位論次第展開，佛皆以最簡「一句因故」回答</td></tr><tr><td>三大邏輯悖論</td><td>辯證一「般若既常何以無常」——般若法性常住為何須菩提又稱無常；辯證二「一切破壞無為破否」——若一切法皆破壞相無為法是否亦包含在內；辯證三「般若讚般若豈非同義反覆」——餘法可讚般若何以復以般若讚般若</td></tr><tr><td>有為般若與無為般若之辨</td><td>般若波羅蜜是智慧，觀法從因緣和合生是有為法故無常；般若所緣處如法性實際是無為法故常；須菩提所說是有為般若，故言般若波羅蜜無常，二者並不矛盾</td></tr><tr><td>名字一切與實一切之判分</td><td>一切有為法有名字一切（範疇上的全集）與實一切（存有上的全集）二義；佛說一切法盡破壞無常，特指實一切（六情作法），非否定無為法名言層次的概念性指稱，離有為法則無無為法亦更無有法相</td></tr><tr><td>二諦並用的中觀邏輯</td><td>世俗諦緣起相待——萬法緣和合依賴對立面而存在，呈現生滅無常之相；勝義諦畢竟空寂——萬法本無自性超越言說二元對立，呈現不生不滅之理；三大悖論皆因混淆二諦而生，中觀邏輯即確認世俗相待功能加契入勝義絕對空性</td></tr></tbody></table><table class="c65p5-tbl"><caption>二、觀法修道解脫定學之全譜展開（核心辯證）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>五觀與十八空 · 一切法收歸不可得</td><td>無常（一切法破壞故）、苦（一切法惱相故）、無我（一切法不著故）、空（一切法不可得故）、無相（一切法不生故）五觀為入觀次第；十八空從內空外空（內外法不可得）至無法有法空（無法有法不可得），十七則所對治者各別而共一不可得之根</td></tr><tr><td>三十七道品七科 · 修而無修行而無行</td><td>念處（身受心法不可得）、正勤（善不善法不可得）、如意足、根、力、覺、道七科皆言「其所緣處從本以來皆不可得」——道品雖修而不可得，正是般若行修而無修之核心要義</td></tr><tr><td>三解脫門的空亦復空</td><td>無作、空、無相三解脫門與第一章空無相字面相同而所對治已轉——初義對一切法之觀（一切法不可得、不生），後義對空相無相相之觀（空相不可得、寂滅相不可得），是更精微的自我超越，若於空無相起執仍須再破一層</td></tr><tr><td>背捨次第定與六波羅蜜</td><td>八背捨九次第定其相皆不可得故即是般若，禪定雖為入道資糧亦不可執取；六波羅蜜中檀尸羅羼提毘梨耶禪五度所治慳貪破戒忍不忍辱懈怠精進定亂皆不可得，唯般若讚般若一則深藏有用般若與常住般若之分</td></tr><tr><td>燈與光喻 · 有用般若與常住般若</td><td>有用般若（與五度共行·動態·能破無明·差別生滅相·須菩提視角因地修證）與常住般若（如法性實際·靜態·癡慧不可得·平等寂滅相·佛陀視角果位法界）一體兩面互讚互成，如光能破暗（用）而燈體本空（體），勝義中兩者皆空</td></tr></tbody></table><table class="c65p5-tbl"><caption>三、佛地七德與一切種智之終極綜攝（收束總攝）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>佛地七德逐則詳釋</td><td>十力（一切法不可伏）、無所畏（道種智不沒）、無礙智（一切法入如法性實際皆無障礙）、佛法（過一切法故最勝）、如實說（一切語言皆是如實）、自然（一切法中自在故）、佛（知一切法一切種智故）——龍樹於此不再以亦如是帶過，是本品論文最豐厚之段</td></tr><tr><td>視角切換 · 從特權功德到平等實相</td><td>須菩提見「佛的十力無敵」，佛陀答「一切法實相皆不可伏」；須菩提覺「菩薩辯才無礙」，佛陀答「一切法入法性皆是無礙相」——每一問答都是從個別特權功德翻轉為普遍平等實相</td></tr><tr><td>道種智與自然波羅蜜之實踐心法</td><td>道種智即法眼，知一切眾生以何道得涅槃，增益不沒故無所畏，不自憍慢我有是法；自然者法爾如是、實相自然不由他作，真正成佛非造作出新境界，而是徹透因緣法後不再被業力牽引，於一切法中得自在力</td></tr><tr><td>佛波羅蜜的終極重新定義</td><td>不以佛身故名為佛波羅蜜，但以一切種智故——佛秦言覺者知者，正知一切法一切種故名覺；一切法五分（凡夫法聲聞法辟支佛法菩薩法佛法），佛之知具總相別相、分別相畢竟空相，廣知則為一切種</td></tr><tr><td>知識論本體論目的論三維終極綜攝</td><td>全品47則以「所緣處從本以來不可得」為唯一心要，貫通知識論（能所雙亡）、本體論（不生不滅）、目的論（體用相即·佛波羅蜜）三維，即龍樹中觀「以有空義故，一切法得成」之精髓總結</td></tr></tbody></table><p class="c65p5-note">本品四十七則讚問，表面是同一句式「某波羅蜜是般若波羅蜜」的四十七次反覆，實則是一部隱藏嚴密支架的辯證巨構。開篇即現三大邏輯悖論的張力——般若法性常住卻被讚為無常，龍樹以「有為般若（智）觀法無常」與「無為般若（所緣如法性實際）常住」化解，這也正是後文一切辯證的原型：<b>能觀之智是有為生滅，所觀之理是無為寂靜，兩者本不矛盾，只因層次未分而顯悖論</b>。全品縱貫五觀、十八空、三十七道品、三解脫門、背捨次第定、六波羅蜜，直至佛地七德，每一階段佛陀都以最簡潔的「不可得」印可，卻在不同向度上各有精微差異——十八空所對治者各別而共一不可得之根，三解脫門之空與無相更是空亦復空的自我超越。最深刻處在六度末則「般若讚般若」——有用般若如光能破暗，常住般若如燈體本空，體用二分而互讚互成，恰似燈與光的真俗不二。終於佛地七德收束於「不以佛身故名為佛波羅蜜，但以一切種智故」，佛即覺者，正知一切法一切種——四十七則的全體大用，終歸於「所緣處從本以來不可得」一句，此即《般若經》「以有空義故，一切法得成」之根本心要。</p></div></div>
+<script id="wy-c65p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c65p5Btn"),BOX=document.getElementById("c65p5Box"),MODAL=document.getElementById("c65p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c65p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C65P5:END-->
 </body>
 </html>
